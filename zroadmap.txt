@@ -1,0 +1,12 @@
+1.
+2. If-Else Multiple Condition
+3. Loops
+4. Pattern Printing
+5. Function
+6. Pointers
+7. Recursion
+8. Arrays / 2D Arrays
+9. Strings
+10. Structures 
+11. Sorting
+12. File Handling

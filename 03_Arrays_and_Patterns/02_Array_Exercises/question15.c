@@ -1,0 +1,23 @@
+//WAP to reverse the array without using any extra array
+#include<stdio.h>
+void reverse(int arr[])
+{
+    int i=0, j=5;
+    while(i<j)
+    {
+        int temp = arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+        i++;
+        j--;
+    }
+  return;
+}
+int main(){
+    int arr[6]={1,2,3,4,5,6};
+    reverse(arr);
+    for(int i=0; i<6; i++){
+        printf("\n%d", arr[i]);
+    }
+    return 0;
+}
