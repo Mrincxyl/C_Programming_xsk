@@ -7,4 +7,10 @@
             printf("Yes\n");
         else
             printf("No\n");
+
+        int x = 97;
+        char y = x;
+        printf("%c\n", y);
+
     } 
+
