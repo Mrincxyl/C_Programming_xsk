@@ -82,6 +82,20 @@ void reverse(Node **s)
     
 }
 
+void reverserecursive(Node **r,Node *p, Node *q)
+{
+    if(q)
+    {
+         reverserecursive(r ,q,q->next);
+         q->next = p;
+    }
+    else{
+
+         *r = p; 
+
+    }
+}
+
 int main()
 {
     Node * first = NULL;
@@ -90,7 +104,11 @@ int main()
 
     printLL(first); 
 
-    reverse(&first);
+    //reverse(&first);
+
+    //printLL(first);
+
+    reverserecursive(&first,NULL,first);
 
     printLL(first);
 

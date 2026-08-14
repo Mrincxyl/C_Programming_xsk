@@ -9,7 +9,7 @@ typedef struct stack
 
 }stack;
 
-
+ 
 
 int isBalanced(char *s)
 {
